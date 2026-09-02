@@ -41,8 +41,8 @@
 .screensaver__container__room-details__name {
     font-size: 40vh ; 
     line-height: 1.2 ;
-    z-index: 10 ; 
-    position: relative ;
+    //z-index: 10 ; 
+    //position: relative ;
     /* text-align: center removed to restore native left-alignment */
 }
 
