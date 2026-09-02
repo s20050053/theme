@@ -29,7 +29,7 @@
 
 /* --- 2. ACTIVE SCHEDULING SCREEN ROOM NAME --- */
 .room__container__room-details__name {
-    font-size: 10vh !important; 
+    font-size: 8vh; 
     line-height: 1.1 !important;
     white-space: normal !important; 
     overflow: visible !important; 
