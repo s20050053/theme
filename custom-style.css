@@ -12,11 +12,13 @@
 .screensaver__container__room-details__name {
    width: 133.333333333vh;
    font-size: 40vh; 
+   position: relative;
    
 }
 
 .room__container__room-details__name{
    width: 133.333333333vh;
    font-size: 40vh; 
+   position: relative;
    
 }
