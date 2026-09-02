@@ -1,0 +1,57 @@
+/* ==========================================================================
+   CRESTRON TSS-770 CUSTOM THEME OVERRIDE
+   ========================================================================== */
+
+/* --- 1. SCREENSAVER LOGO ONLY (MASSIVE, NATIVE POSITION) --- */
+/* Unlocks the parent containers holding the logo */
+.screensaver__container__logo,
+.screensaver__container__logo-container {
+    max-width: none !important;
+    max-height: none !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+/* Directly targets the image element to force the size override */
+.screensaver__container__logo_img,
+.screensaver__container__logo img {
+    height: 20vh !important; 
+    min-height: 20vh !important; /* Added to override strict flex constraints */
+    max-height: 20vh !important;
+    max-width: 90vw !important; 
+    width: auto !important;
+    object-fit: contain !important;
+    image-rendering: pixelated !important; /* Forces sharp, blocky pixels instead of a soft blur */ 
+    display: block !important;
+    z-index: 10 !important; 
+}
+
+/* --- 2. ACTIVE SCHEDULING SCREEN ROOM NAME --- */
+.room__container__room-details__name {
+    font-size: 10vh !important; 
+    line-height: 1.1 !important;
+    white-space: normal !important; 
+    overflow: visible !important; 
+    margin-top: 0 !important; 
+    display: block !important;
+}
+
+/* --- 3. SCREENSAVER ROOM NAME ONLY (MASSIVE, NATIVE POSITION) --- */
+.screensaver__container__room-details__name {
+    font-size: 40vh !important; 
+    line-height: 1.2 !important;
+    z-index: 10 !important; 
+    position: relative !important;
+    /* text-align: center removed to restore native left-alignment */
+}
+
+/* --- 4. BACKGROUND IMAGE SCALING FIX --- */
+.background, 
+.bg-image, 
+.app-background,
+body {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
