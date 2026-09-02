@@ -7,14 +7,6 @@
 
 
 /* --- 2. ACTIVE SCHEDULING SCREEN ROOM NAME --- */
-.room__container__room-details__name {
-    font-size: 5vh; 
-    line-height: 1.1;
-    white-space: normal; 
-    overflow: visible; 
-    margin-top: 0; 
-    display: block;
-}
 
 /* --- 3. SCREENSAVER ROOM NAME ONLY (MASSIVE, NATIVE POSITION) --- */
 .screensaver__container__room-details__name {
