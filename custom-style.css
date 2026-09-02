@@ -40,18 +40,9 @@
 /* --- 3. SCREENSAVER ROOM NAME ONLY (MASSIVE, NATIVE POSITION) --- */
 .screensaver__container__room-details__name {
     font-size: 20vh ; 
-    line-height: 1.2 ;
-    /*z-index: 10 ; 
+     /*line-height: 1.2 ;
+   z-index: 10 ; 
     position: relative ;*/
     /* text-align: center removed to restore native left-alignment */
 }
 
-/* --- 4. BACKGROUND IMAGE SCALING FIX --- */
-.background, 
-.bg-image, 
-.app-background,
-body {
-    background-size: contain ;
-    background-repeat: no-repeat ;
-    background-position: center center;
-}
