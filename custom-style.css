@@ -6,25 +6,25 @@
 /* Unlocks the parent containers holding the logo */
 .screensaver__container__logo,
 .screensaver__container__logo-container {
-    max-width: none !important;
-    max-height: none !important;
-    width: auto !important;
-    height: auto !important;
-    overflow: visible !important;
+    max-width: none;
+    max-height: none;
+    width: auto;
+    height: auto;
+    overflow: visible;
 }
 
 /* Directly targets the image element to force the size override */
 .screensaver__container__logo_img,
 .screensaver__container__logo img {
-    height: 20vh !important; 
-    min-height: 20vh !important; /* Added to override strict flex constraints */
-    max-height: 20vh !important;
-    max-width: 90vw !important; 
-    width: auto !important;
-    object-fit: contain !important;
-    image-rendering: pixelated !important; /* Forces sharp, blocky pixels instead of a soft blur */ 
-    display: block !important;
-    z-index: 10 !important; 
+    height: 20vh; 
+    min-height: 20vht; /* Added to override strict flex constraints */
+    max-height: 20vh;
+    max-width: 90vw; 
+    width: auto;
+    object-fit: contain;
+    image-rendering: pixelated; /* Forces sharp, blocky pixels instead of a soft blur */ 
+    display: block ;
+    z-index: 10 ; 
 }
 
 /* --- 2. ACTIVE SCHEDULING SCREEN ROOM NAME --- */
@@ -39,10 +39,10 @@
 
 /* --- 3. SCREENSAVER ROOM NAME ONLY (MASSIVE, NATIVE POSITION) --- */
 .screensaver__container__room-details__name {
-    font-size: 40vh !important; 
-    line-height: 1.2 !important;
-    z-index: 10 !important; 
-    position: relative !important;
+    font-size: 40vh ; 
+    line-height: 1.2 ;
+    z-index: 10 ; 
+    position: relative ;
     /* text-align: center removed to restore native left-alignment */
 }
 
@@ -51,7 +51,7 @@
 .bg-image, 
 .app-background,
 body {
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
+    background-size: contain ;
+    background-repeat: no-repeat ;
+    background-position: center center;
 }
