@@ -10,7 +10,8 @@
 
 /* --- 3. SCREENSAVER ROOM NAME ONLY (MASSIVE, NATIVE POSITION) --- */
 .screensaver__container__room-details__name {
-   width: 133.333333333vh; 
+   width: 133.333333333vh;
+   font-size: 20vh; 
    
 }
 
